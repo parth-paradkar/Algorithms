@@ -17,5 +17,3 @@ function prime_factors(num::Int)::Array
         push!(factors, n)
     end
 end
-
-println(prime_factors(288))
