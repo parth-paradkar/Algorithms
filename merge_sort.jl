@@ -1,3 +1,4 @@
+# Function to merge sort
 function mrg_srt(arr::Vector)
     if length(arr) ≤ 1 return arr end
     mid = length(arr) ÷ 2
